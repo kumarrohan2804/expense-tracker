@@ -34,6 +34,7 @@ const Form = () => {
       id: uuidv4(),
     };
     addTransaction(transaction);
+    setFormData(initialState);
   };
 
   return (
